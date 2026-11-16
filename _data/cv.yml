@@ -1,189 +1,130 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Akash Shingha Bappy
+  label: Computer Vision & Machine Learning Engineer | Edge AI & UAV Systems
+  email: akashshingha850@gmail.com
+  location: Oulu, Finland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Computer vision and ML engineer who takes perception models from raw data to field deployment on edge hardware. I build detection and segmentation models (YOLO, PyTorch), dataset and labeling pipelines, and ONNX/TensorRT inference on NVIDIA Jetson, integrated with cameras, LiDAR and drones through ROS 2 and PX4.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: akashshingha850
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: akashshingha
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Biomimetics and Intelligent Systems Group (BISG), University of Oulu
+        position: Project Researcher
+        location: Oulu, Finland
+        start_date: 2026-01
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - Robotics system development
+          - Autonomous perception and navigation
+          - Edge AI and vision system development
+          - Distributed robotics and communication systems
+          - Research and scientific contribution
+          - "Tools: Active Learning, Distributed Systems, Raft Consensus, ROS 2, Docker Compose, Docker Swarm, ZeroMQ, YOLO, PyTorch, Isaac Sim, PX4, MAVROS, NVIDIA Jetson, ZED Camera, Linux, Python"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: VTT Technical Research Centre of Finland
+        position: Research Trainee
+        location: Oulu, Finland
+        start_date: 2024-05
+        end_date: 2025-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - UAV system engineering
+          - Intelligent swarming operation
+          - Computer vision engineering
+          - Autonomous systems development
+          - "Tools: Deep Learning, OpenCV, MAVLink, ArduPilot, YOLO, CVAT, Photogrammetry, Gazebo, Onshape, OpenDroneMap, Mission Planner, QGroundControl, GStreamer, Python, ROS 2, NVIDIA Jetson, Pixhawk, Linux"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Education:
+      - institution: University of Oulu
+        location: Oulu, Finland
+        url: https://www.oulu.fi/
+        area: Biomedical Engineering
+        studyType: M.Sc.
+        start_date: 2023-09
+        end_date: 2025-07
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Thesis: Real-time UAV-based geospatial mapping: integrating YOLOv11 for road intersection detection and photogrammetry for 3D terrain modeling on edge devices"
+          - Signal and image processing; machine learning and deep learning; computer vision and affective computing; medical IoT and eHealth; big data analysis
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - institution: Khulna University of Engineering & Technology (KUET)
+        location: Khulna, Bangladesh
+        area: Electronics and Communication Engineering
+        studyType: B.Sc.
+        start_date: 2014-12
+        end_date: 2022-06
+        highlights:
+          - Analog and digital electronics; digital signal processing; communication systems and networks
+          - Microprocessors, embedded systems and industrial electronics; programming, data structures and databases
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "ROADSIGHT: A Multi-Season UAV Dataset and Benchmark for Road Intersection Detection with Real-Time Embedded Inference"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - A. S. Bappy, S. Ariram, T. Mäenpää, J. Röning
+        publisher: Computer Vision Conference (CVC 2027), accepted
+        releaseDate: 2027
+        url: https://doi.org/10.5281/zenodo.24274498
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "RangeGen PoleSight: A Benchmark Dataset and Scalable Range-Image Generation Framework for Roadside Pole Detection"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - T. Mäenpää*, A. Bappy*, S. Ariram, D. P. Bavirisetti, A. Tikanmäki (*equal contribution)
+        publisher: IVCNZ 2026
+        releaseDate: 2026
+        url: https://zenodo.org/records/23339206
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "SENSEYE: A Resource-Aware Visionary Framework for Assisting Individuals with Visual Disabilities"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - A. S. Bappy, T. Seppänen, M. Z. Hoque
+        publisher: Scientific Reports 16, 20335
+        releaseDate: 2026-05-11
+        url: https://www.nature.com/articles/s41598-026-51257-9
+
+      - title: Real-Time Bangladeshi Currency Recognition Using Faster R-CNN Approach for Visually Impaired People
+        authors:
+          - M. T. Islam, M. Ahmad, A. S. Bappy
+        publisher: ICCIS 2020, Lecture Notes in Networks and Systems, Springer
+        releaseDate: 2021
+        url: https://doi.org/10.1007/978-981-16-1089-9_13
+
+      - title: Real-Time Family Member Recognition Using Raspberry Pi for Visually Impaired People
+        authors:
+          - M. T. Islam, M. Ahmad, A. S. Bappy
+        publisher: IEEE TENSYMP 2020
+        releaseDate: 2020
+        url: https://doi.org/10.1109/TENSYMP50017.2020.9230937
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming & Engineering Tools
+        icon: fa-solid fa-code
+        keywords: "Python, C, C++, PHP, MySQL, Arduino, Onshape CAD, MATLAB, Proteus, Packet Tracer"
+      - name: Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Keras, Scikit-Learn, Transfer Learning, YOLO, TensorBoard, WandB"
+      - name: Computer Vision
+        icon: fa-solid fa-eye
+        keywords: "OpenCV, CVAT, Albumentations, Photogrammetry, MediaPipe"
+      - name: Edge Computing
+        icon: fa-solid fa-microchip
+        keywords: "NVIDIA TensorRT, DeepStream, ONNX, TensorFlow Lite, CUDA, GStreamer"
+      - name: Robotics & Drones
+        icon: fa-solid fa-helicopter
+        keywords: "NVIDIA Jetson (Orin, Xavier, Nano), Raspberry Pi, Arduino, Pixhawk (ArduPilot, PX4), MAVLink, ROS 2, Gazebo, Isaac Sim, Mission Planner, QGroundControl, MQTT"
+      - name: Data
+        icon: fa-solid fa-chart-line
+        keywords: "Pandas, NumPy, Matplotlib, Seaborn, Plotly, Apache Spark"
+      - name: Tools & OS
+        icon: fa-solid fa-terminal
+        keywords: "Linux, Ubuntu, WSL2, JetPack, Docker, GitHub, VS Code, Jupyter, LaTeX, Jira, Slack"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Unmanned Aerial Systems Remote Pilot Certification
+        date: 2024
+        icon: fa-solid fa-plane
+      - name: Cisco Certified Network Associate (CCNA v5)
+        date: 2018
+        issuer: Cisco
+        icon: fa-solid fa-network-wired

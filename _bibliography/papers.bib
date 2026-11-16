@@ -1,6 +1,19 @@
 ---
 ---
 
+@inproceedings{bappy2027roadsight,
+  abbr        = {CVC},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {ROADSIGHT: A Multi-Season UAV Dataset and Benchmark for Road Intersection Detection with Real-Time Embedded Inference},
+  author      = {Bappy, Akash Shingha and Ariram, Siva and M{\"a}enp{\"a}{\"a}, Timo and R{\"o}ning, Juha},
+  booktitle   = {Computer Vision Conference (CVC)},
+  year        = {2027},
+  note        = {Accepted},
+  website     = {https://doi.org/10.5281/zenodo.24274498},
+  abstract    = {Detecting road intersections in unmanned aerial vehicle (UAV) imagery supports aerial mapping, infrastructure monitoring and intelligent transportation. At northern latitudes, snow cover and vegetation change how the same intersection appears from the air, but existing aerial datasets target vehicles or generic road scenes and seldom capture this variation. We introduce ROADSIGHT, to our knowledge the first UAV dataset with intersection-type annotations collected under varied seasonal conditions. It comprises 1,416 RGB images captured in Finland under summer, autumn and winter conditions, with 3,133 bounding boxes for roundabouts, T-intersections and X-intersections. We use site-disjoint training, validation and test splits to prevent spatial leakage. We benchmark 17 YOLO and RT-DETR configurations. RT-DETR-x achieves the highest test mAP50:95 of 0.488, but real-time use also depends on latency, so we select YOLO26n, whose cross-validated accuracy is not distinguishable from that of RT-DETR-l at one-thirteenth of its parameters. Generalization across seasons is the dominant challenge: withholding one period from training reduces accuracy on it by 0.08 to 0.32 mAP50:95, and without winter training images, winter accuracy falls to 0.082. With TensorRT at half precision, YOLO26n processes 86 and 98 frames per second on the NVIDIA Jetson Orin Nano and Orin NX, respectively. The dataset is publicly available.}
+}
+
 @inproceedings{maenpaa2026polesight,
   abbr        = {IVCNZ},
   bibtex_show = {true},
@@ -10,6 +23,58 @@
   booktitle   = {International Conference on Image and Vision Computing New Zealand (IVCNZ)},
   year        = {2026},
   preview     = {polesight.png},
+  website     = {https://zenodo.org/records/23339206},
   additional_info = {. *Equal contribution},
   abstract    = {Roadside pole-like infrastructure supports asset inventory, high-definition mapping, and autonomous-vehicle localization, yet Light Detection and Ranging (LiDAR) benchmarks with fine-grained pole categories remain scarce. This paper presents PoleSight, a range-image instance-segmentation dataset, and RangeGen, a scalable framework for generating annotated range views from large-scale mobile laser scanning point clouds. RangeGen projects dense point clouds from virtual sensor poses, transfers manually verified two-dimensional annotations back to their source three-dimensional points, and reprojects the labeled cloud to obtain additional annotated frames without repeated manual labeling. PoleSight provides 1,088 range images with return intensity and 6,121 polygon instances of light, fence, traffic, and gantry-sign poles. Fifteen segmentation baselines, five variants each from three YOLO families, reach a best box mean average precision (mAP) of 29.21 and a best mask value of 11.93 across standard COCO thresholds on a seen-location split, in which test frames usually show poles that are also present in training. That gap identifies precise mask recovery, rather than localization, as the open challenge on this benchmark.}
+}
+
+@article{bappy2026senseye,
+  abbr        = {Sci. Rep.},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {SENSEYE: A Resource-Aware Visionary Framework for Assisting Individuals with Visual Disabilities},
+  author      = {Bappy, Akash Shingha and Sepp{\"a}nen, Tapio and Hoque, Md Ziaul},
+  journal     = {Scientific Reports},
+  volume      = {16},
+  pages       = {20335},
+  year        = {2026},
+  doi         = {10.1038/s41598-026-51257-9},
+  html        = {https://www.nature.com/articles/s41598-026-51257-9},
+  code        = {https://github.com/akashshingha850/SENSEYE-Resource-Aware-Visionary-Framework},
+  preview     = {senseye.jpg},
+  abstract    = {Despite significant recent advances, visual aid systems are still limited by the use of conventional computer vision algorithms, constrained sensor capabilities, high power consumption, and reliance on cloud-based processing, which introduce latency and privacy risks. This paper introduces SENSEYE, a resource-aware visionary framework that employs edge computing with a secure and competent communication mechanism. The proposed architecture integrates IoT Edge and virtual decentralized services in a portable system that is small, cost-effective, and power-efficient. SENSEYE integrates real-time object detection, scene comprehension, and GPS-based navigation into a portable, low-latency device, leveraging optimized lightweight AI models such as SSD-MobileNetV2 and VILA1.5-3b to provide accurate environmental awareness and seamless auditory feedback. The system also enables secure remote assistance via video streaming and real-time GPS location sharing. The evaluations confirm superior accuracy, power efficiency, and responsiveness compared to traditional sensor-based or cloud-reliant systems.}
+}
+
+@mastersthesis{bappy2025thesis,
+  abbr        = {MSc},
+  bibtex_show = {true},
+  title       = {Real-time UAV-based geospatial mapping: integrating YOLOv11 for road intersection detection and photogrammetry for 3D terrain modeling on edge devices},
+  author      = {Bappy, Akash Shingha},
+  school      = {University of Oulu},
+  year        = {2025},
+  html        = {https://urn.fi/URN:NBN:fi:oulu-202506164606}
+}
+
+@inproceedings{islam2021currency,
+  abbr        = {ICCIS},
+  bibtex_show = {true},
+  title       = {Real-Time Bangladeshi Currency Recognition Using Faster R-CNN Approach for Visually Impaired People},
+  author      = {Islam, Md. Tobibul and Ahmad, Mohiuddin and Bappy, Akash Shingha},
+  booktitle   = {Lecture Notes in Networks and Systems (Proc. ICCIS 2020)},
+  publisher   = {Springer Singapore},
+  pages       = {147--156},
+  year        = {2021},
+  doi         = {10.1007/978-981-16-1089-9_13}
+}
+
+@inproceedings{islam2020family,
+  abbr        = {TENSYMP},
+  bibtex_show = {true},
+  title       = {Real-Time Family Member Recognition Using Raspberry Pi for Visually Impaired People},
+  author      = {Islam, Md. Tobibul and Ahmad, Mohiuddin and Bappy, Akash Shingha},
+  booktitle   = {2020 IEEE Region 10 Symposium (TENSYMP)},
+  publisher   = {IEEE},
+  pages       = {78--81},
+  year        = {2020},
+  doi         = {10.1109/TENSYMP50017.2020.9230937}
 }
